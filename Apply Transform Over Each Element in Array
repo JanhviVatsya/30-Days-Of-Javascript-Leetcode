@@ -1,0 +1,11 @@
+var map = function(arr, fn) {
+// using for loop
+    // const ans= [];
+    // for(let i=0; i<arr.length; i++){
+    //     ans[i]=fn(arr[i],i);
+    // }
+    // return ans;
+
+//using in-built map function
+    return arr.map(fn);
+};
